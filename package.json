@@ -30,6 +30,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "@styled-icons/material-outlined": "^10.18.0",
+    "@styled-icons/remix-fill": "^10.18.0",
     "styled-components": "5.2.1",
     "styled-media-query": "^2.1.2"
   },
