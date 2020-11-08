@@ -21,6 +21,7 @@ const wrapperModifiers = {
 
     svg {
      height: 4.5rem;
+     pointer-events: none;
     }
     .text {
       display: none;
@@ -33,7 +34,7 @@ export const Wrapper = styled.div<LogoProps>`
   ${({ theme, color, size, hidenOnMobile }) => css`
     color: ${theme.colors[color!]};
 
-    ${!!size && wrapperModifiers[size]}
-    ${!!hidenOnMobile && wrapperModifiers.hidenOnMobile}
+    ${!!size && wrapperModifiers[size]};
+    ${!!hidenOnMobile && wrapperModifiers.hidenOnMobile};
   `}
 `
