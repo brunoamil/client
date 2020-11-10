@@ -32,7 +32,8 @@
     "@styled-icons/material-outlined": "^10.18.0",
     "@styled-icons/remix-fill": "^10.18.0",
     "styled-components": "5.2.1",
-    "styled-media-query": "^2.1.2"
+    "styled-media-query": "^2.1.2",
+    "polished": "^3.6.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
