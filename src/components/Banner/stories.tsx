@@ -4,6 +4,11 @@ import Banner, { BannerProps } from '.'
 export default {
   title: 'Banner',
   component: Banner,
+  argTypes: {
+    ribbon: {
+      type: 'string'
+    }
+  },
   args: {
     img: 'https://images4.alphacoders.com/104/1049586.jpg',
     title: 'Defy death',
@@ -23,7 +28,7 @@ export const Default: Story<BannerProps> = (args) => (
 )
 
 export const WithRibbon: Story<BannerProps> = (args) => (
-  <div style={{ maxWidth: '104rem' }}>
+  <div style={{ maxWidth: '104rem', margin: '0 auto' }}>
     <Banner {...args} />
   </div>
 )
