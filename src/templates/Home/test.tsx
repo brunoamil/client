@@ -14,11 +14,11 @@ const props = {
   newGames: [gamesMock[0]],
   mostPopularHighlight: highlightMock,
   mostPopularGames: [gamesMock[0]],
-  upcommingGames: [gamesMock[0]],
-  upcommingHighligth: highlightMock,
-  upcommingMoreGames: [gamesMock[0]],
+  upcomingGames: [gamesMock[0]],
+  upcomingHighlight: highlightMock,
+  upcomingMoreGames: [gamesMock[0]],
   freeGames: [gamesMock[0]],
-  freeHighligth: highlightMock
+  freeHighlight: highlightMock
 }
 
 describe('<Home />', () => {
@@ -42,6 +42,6 @@ describe('<Home />', () => {
     ).toBeInTheDocument()
     expect(screen.getAllByText(/defy death 1/i)).toHaveLength(1)
     expect(screen.getAllByText(/population zero/i)).toHaveLength(5)
-    expect(screen.getAllByText(/read dead is back/i)).toHaveLength(1)
+    expect(screen.getAllByText(/read dead is back/i)).toHaveLength(3)
   })
 })
